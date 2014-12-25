@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- $Change: 315065 $ (must be within the first 200 characters of the file) -->
+<Root>
+  <Module name="ef2chat"
+    movie          = "ef2chat\ef2chat.swf"
+    depth_layer    = "Back"
+    flags          = "GMF_CFG_STORE_USER_CONFIG"
+    sub_depth      = "0"
+    variable       ="ef2chat"
+    config_name = "ef2chat"
+    criteria="STD &amp;&amp; (guimode &amp; (GUIMODEFLAGS_INPLAY | GUIMODEFLAGS_ENABLEALLGUI))"
+  />
+</Root>
